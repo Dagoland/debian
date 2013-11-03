@@ -19,7 +19,7 @@ mkdir .icons 2> /dev/null
 mkdir .fonts 2> /dev/null
 #
 ##### Download Tema GTK: Dagoland para MATE #####
-wget -O Dagoland.zip https://www.dropbox.com/s/55cp95eca4phx5j/Dagoland-blue.zip
+wget -O Dagoland.zip https://www.dropbox.com/s/odxe8xrwqksng5w/Dagoland.zip
 unzip Dagoland.zip
 mv Dagoland /home/`whoami`/.themes
 rm Dagoland.zip
