@@ -59,7 +59,7 @@ apt-get install mate-desktop-environment-extra -y --force-yes
 
 #### Instalação de ferramentas de descompressão
 
-apt-get install unzip
+apt-get install unzip -y --force-yes
 
 #### Instalação e configuração de lightdm
 
