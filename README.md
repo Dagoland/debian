@@ -4,6 +4,8 @@ debian
 Repositório para uso em sistemas Debian.
 
 
-mate-netinst
+mate-netinst.sh 
+Script que instala interface MATE no Debian Wheezy Netinst.
 
-Instala interface MATE no debian via script
+mate-perfect.sh
+Script que instala tema Dagoland no MATE.  
