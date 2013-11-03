@@ -60,20 +60,20 @@ rm latin.zip
 #
 # Preferências de aparência (Padrão)
 #
-# 1 Fonte de aplicativos:                        Sans 10         
-# 2 Fonte de documentos:                     Sans 10  
-# 3 Fonte da área de trabalho:             Sans 10
-# 4 Fonte do título de janelas:       Sans Bold10
+# 1 Fonte de aplicativos:                Sans 10         
+# 2 Fonte de documentos:                 Sans 10  
+# 3 Fonte da área de trabalho:           Sans 10
+# 4 Fonte do título de janelas:      Sans Bold10
 # 5 Fonte de largura fixa:          Monospace 10
 #
 # Ateração para: 
 #
 # Preferências de aparência
 #
-# 1 Fonte de aplicativos:                Lucida Gr  10      
-# 2 Fonte de documentos:             Lucida Gr  10    
+# 1 Fonte de aplicativos:          Lucida Gr  10      
+# 2 Fonte de documentos:           Lucida Gr  10    
 # 3 Fonte da área de trabalho:     Lucida Gr  10
-# 4 Fonte do título de janelas:       Lucida Gr 10    
+# 4 Fonte do título de janelas:     Lucida Gr 10    
 # 5 Fonte de largura fixa:     Lucida Console 10    
 #
 #### 1 Fonte de aplicativos: ####
