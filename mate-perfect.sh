@@ -5,7 +5,13 @@
 # Este script não deve ser usado como root
 #
 #
-#
+#### Verificando se o usuário é root ####
+if [ `whoami` = "root" ] ; then
+ echo ""
+ echo "Erro: Este script deve ser executado apenas como usuário normal."
+ echo ""
+ exit 1s
+fi
 #### Preparando as pastas de recepção dos aquivos a serem baixados ####
 cd /home/`whoami`/
 mkdir .themes 2> /dev/null
@@ -32,7 +38,7 @@ rm Dagoland.zip
 #
 ##### Download tema para cursor do mouse Dagoland-Cursors #####
 ###############################################################
-wget -O Dagoland-Cursors.zip https://www.dropbox.com/s/5ecd7gnezuv0ncl/Dagoland-Cursors.zip
+wget -O Dagoland-Cursors.zip https://www.dropbox.com/s/2ywo8dfnfjz0fmi/Dagoland-Cursors.zip
 unzip Dagoland-Cursors.zip
 mv Dagoland-Cursors /home/`whoami`/.icons
 rm Dagoland-Cursors.zip
@@ -63,7 +69,7 @@ rm latin.zip
 # 1 Fonte de aplicativos:                Sans 10         
 # 2 Fonte de documentos:                 Sans 10  
 # 3 Fonte da área de trabalho:           Sans 10
-# 4 Fonte do título de janelas:      Sans Bold10
+# 4 Fonte do título de janelas:     Sans Bold 10
 # 5 Fonte de largura fixa:          Monospace 10
 #
 # Ateração para: 
@@ -97,7 +103,7 @@ gsettings set org.mate.interface gtk-theme 'Dagoland-blue'
 gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
 gsettings set org.mate.peripherals-mouse cursor-theme 'Dagoland-Cursors'
-#
+#### tema marco Dagoland-blue
+gsettings set org.mate.Marco.general theme 'Dagoland-blue'
 #### Botões do lado esquerdo: ####
-#
 gsettings set org.mate.Marco.general button-layout 'close,minimize,maximize:menu'
