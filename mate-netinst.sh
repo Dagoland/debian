@@ -57,6 +57,10 @@ apt-get install xorg -y --force-yes
 
 apt-get install mate-desktop-environment-extra -y --force-yes
 
+#### Instalação de ferramentas de descompressão
+
+apt-get install unzip
+
 #### Instalação e configuração de lightdm
 
 apt-get install lightdm -y --force-yes
