@@ -76,9 +76,9 @@ rm latin.zip
 #
 # Preferências de aparência
 #
-# 1 Fonte de aplicativos:          Lucida Gr  10      
-# 2 Fonte de documentos:           Lucida Gr  10    
-# 3 Fonte da área de trabalho:     Lucida Gr  10
+# 1 Fonte de aplicativos:           Lucida Gr 10      
+# 2 Fonte de documentos:            Lucida Gr 10    
+# 3 Fonte da área de trabalho:      Lucida Gr 10
 # 4 Fonte do título de janelas:     Lucida Gr 10    
 # 5 Fonte de largura fixa:     Lucida Console 10    
 #
