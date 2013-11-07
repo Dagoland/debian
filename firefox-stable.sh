@@ -201,6 +201,6 @@ echo "Criação do pacote deb completa!"
 echo ""
 echo "Agora, basta instalar o pacote deb criado com o seguinte comando:
  
-sudo dpkg -i firefox-$VERSION-$ARCH.deb
+dpkg -i firefox-$VERSION-$ARCH.deb
 "
 exit 0
