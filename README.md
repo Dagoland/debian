@@ -3,7 +3,7 @@ debian
 
 Repositório para uso em sistemas Debian.
 
-compiz-wheezy.sh
+compiz-wheezy.sh:
 Script que instala Compiz no Debian Wheezy.
 
 firefox-stable.sh: 
