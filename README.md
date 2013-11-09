@@ -13,4 +13,5 @@ mate-netinst.sh:
 Script que instala interface MATE no Debian Wheezy Netinst.
 
 mate-perfect.sh:
-Script que instala tema Dagoland no MATE.  
+Script que instala tema Dagoland no MATE, é compatível com qualquer distribuição que tenha MATE instalado.
+Para usar este script, é necessário os pacotes unzip e wget.
