@@ -71,10 +71,6 @@ dpkg-reconfigure lightdm
 
 apt-get install iceweasel -y --force-yes
 
-#### Remoção do Script
-
-rm mate-netinst.sh
-
 #### Reiniciando o sistema
 
 shutdown -r now
