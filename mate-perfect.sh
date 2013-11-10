@@ -33,7 +33,7 @@ rm Dagoland-blue.zip
 ##### Download Tema de ícones: Dagoland #####
 wget -O Dagoland.zip https://www.dropbox.com/s/98z6ln93x3jnt7m/Dagoland.zip
 unzip Dagoland.zip
-mv Dagoland /home/`whoami`/.icons
+mv Dagoland /home/`whoami`/.icons 
 rm Dagoland.zip
 #
 ##### Download tema para cursor do mouse Dagoland-Cursors #####
