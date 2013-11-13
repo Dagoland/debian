@@ -4,6 +4,9 @@
 ####                                       #### 
 ####    Instalação do Compiz no Debian     ####
 
+##### Atualizamos o sistema
+
+apt-get -t wheezy dist-upgrade -y --force-yes
 
 ##### Adicionamos o repositório Debian Sid Snapshot que contém o pacote compiz
 
@@ -13,10 +16,6 @@ su -c "echo 'deb http://snapshot.debian.org/archive/debian/20130815T215015Z/ sid
 ##### Atualizamos a lista de repositórios
 
 apt-get -o Acquire::Check-Valid-Until=false update
-
-##### Atualizamos o sistema
-
-apt-get -t wheezy dist-upgrade -y --force-yes
 
 ##### Instalamos compiz e seus pacotes auxiliares 
 
