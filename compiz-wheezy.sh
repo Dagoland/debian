@@ -31,6 +31,8 @@ if  [ $arch = i686 ] || [ $arch = i386 ]; then
 
 ##### Downloads
 
+mkdir pacotes_complementares_do_compiz; cd pacotes_complementares_do_compiz
+
 wget -O libemeraldengine0_0.7.9+git20080923.shame-0_i386.deb http://download.tuxfamily.org/shames/debian-sid/desktopfx/unstable/libemeraldengine0_0.7.9+git20080923.shame-0_i386.deb
 
 wget -O emerald_0.7.9+git20080923.shame-0_i386.deb http://download.tuxfamily.org/shames/debian-sid/desktopfx/unstable/emerald_0.7.9+git20080923.shame-0_i386.deb
@@ -39,17 +41,21 @@ wget -O emerald-themes_0.7.9+git20071021.shame-1_all.deb http://download.tuxfami
 
 wget -O simple-ccsm_0.7.9+git20080923.shame-0_i386.deb http://download.tuxfamily.org/shames/debian-sid/desktopfx/unstable/simple-ccsm_0.7.9+git20080923.shame-0_i386.deb
 
-dpkg -i libemeraldengine0_0.7.9+git20080923.shame-0_i386.deb emerald_0.7.9+git20080923.shame-0_i386.deb emerald-themes_0.7.9+git20071021.shame-1_all.deb simple-ccsm_0.7.9+git20080923.shame-0_i386.deb
+dpkg -i *.deb
 
 apt-get -f install -y --force-yes
 
 rm libemeraldengine0_0.7.9+git20080923.shame-0_i386.deb emerald_0.7.9+git20080923.shame-0_i386.deb emerald-themes_0.7.9+git20071021.shame-1_all.deb simple-ccsm_0.7.9+git20080923.shame-0_i386.deb
+
+cd -; rm pacotes_complementares_do_compiz -rf
 
 ##### 64 bits
 
 elif [ $arch = "x86_64" ]; then
 
 ##### Downloads
+
+mkdir pacotes_complementares_do_compiz; cd pacotes_complementares_do_compiz
 
 wget -O libemeraldengine0_0.7.9+git20080923.shame-0_amd64.deb http://download.tuxfamily.org/shames/debian-sid/desktopfx/unstable/libemeraldengine0_0.7.9+git20080923.shame-0_amd64.deb
 
@@ -59,11 +65,13 @@ wget -O emerald-themes_0.7.9+git20071021.shame-1_all.deb http://download.tuxfami
 
 wget -O simple-ccsm_0.7.9+git20080923.shame-0_amd64.deb http://download.tuxfamily.org/shames/debian-sid/desktopfx/unstable/simple-ccsm_0.7.9+git20080923.shame-0_amd64.deb
 
-dpkg -i libemeraldengine0_0.7.9+git20080923.shame-0_amd64.deb emerald_0.7.9+git20080923.shame-0_amd64.deb emerald-themes_0.7.9+git20071021.shame-1_all.deb simple-ccsm_0.7.9+git20080923.shame-0_amd64.deb
+dpkg -i *.deb
 
 apt-get -f install -y --force-yes
 
 rm libemeraldengine0_0.7.9+git20080923.shame-0_amd64.deb emerald_0.7.9+git20080923.shame-0_amd64.deb emerald-themes_0.7.9+git20071021.shame-1_all.deb simple-ccsm_0.7.9+git20080923.shame-0_amd64.deb
+
+cd -; rm pacotes_complementares_do_compiz -rf
 
 else
         echo "Arquitetura não suportada"
