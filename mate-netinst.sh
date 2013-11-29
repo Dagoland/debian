@@ -55,7 +55,18 @@ apt-get install xorg -y --force-yes
 
 #### Instalação de MATE
 
-apt-get install mate-desktop-environment-extra mate-sensors-applet-nvidia libcanberra-gtk-module mate-user-share sound-theme-freedesktop caja-gksu caja-image-converter caja-open-terminal caja-sendto -y --force-yes
+apt-get install mate-desktop-environment-extra
+
+#### Instalação de pacotes extras para MATE
+
+apt-get install mate-sensors-applet-nvidia -y --force-yes
+apt-get install libcanberra-gtk-module -y --force-yes -y 
+apt-get install mate-user-share -y --force-yes -y 
+apt-get install sound-theme-freedesktop -y --force-yes
+apt-get install caja-gksu -y --force-yes
+apt-get install caja-image-converter -y --force-yes -y 
+apt-get install caja-open-terminal -y --force-yes -y 
+apt-get install caja-sendto -y --force-yes
 
 #### Instalação de ferramentas de descompressão
 
