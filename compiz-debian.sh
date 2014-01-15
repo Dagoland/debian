@@ -6,12 +6,16 @@
 
 ##### Atualizamos o sistema
 
-apt-get -t wheezy dist-upgrade -y --force-yes
+apt-get dist-upgrade -y --force-yes
 
 ##### Adicionamos o repositório Debian Sid Snapshot que contém o pacote compiz
 
 su -c "echo '# Debian Sid Snapshot' > /etc/apt/sources.list.d/debian-sid-snapshot.list"
 su -c "echo 'deb http://snapshot.debian.org/archive/debian/20130815T215015Z/ sid main contrib non-free' >> /etc/apt/sources.list.d/debian-sid-snapshot.list"
+
+##### Atualizamos a lista de pacotes
+
+apt-get update
 
 ##### Atualizamos a lista de repositórios
 
@@ -86,4 +90,21 @@ apt-get update
 
 echo "Instalação do Compiz concluída"
 
+##### Configurações básicas #####
+
+wget -c -O efeito_onda_única_e_correção_do_ccsm.tar.gz https://www.dropbox.com/s/1wfyllcjpo022hb/efeito_onda_%C3%BAnica_e_corre%C3%A7%C3%A3o_do_ccsm.tar.gz
+
+tar -vzxf efeito_onda_única_e_correção_do_ccsm.tar.gz
+
+# Arquivos reponsáveis por efeito de uma única onda no Compiz:
+
+mv libanimation.so /usr/lib/compiz/
+
+mv animation.xml /usr/share/compiz/
+
+# Correção do ccsm; referência: http://www.vivaolinux.com.br/dica/CCSM-Bug-apos-atualizacao-do-Debian-Resolvido
+
+mv Utils.py /usr/lib/pymodules/python*/ccm/
+
+rm efeito_onda_única_e_correção_do_ccsm.tar.gz
 
