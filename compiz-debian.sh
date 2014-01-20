@@ -107,4 +107,4 @@ mv animation.xml /usr/share/compiz/
 mv Utils.py /usr/lib/pymodules/python*/ccm/
 
 rm efeito_onda_única_e_correção_do_ccsm.tar.gz
-
+ 
