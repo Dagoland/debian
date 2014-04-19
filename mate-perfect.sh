@@ -104,6 +104,6 @@ gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
 gsettings set org.mate.peripherals-mouse cursor-theme 'Dagoland-Cursors'
 #### tema marco Dagoland-blue
-gsettings set org.mate.Marco.general theme 'Dagoland-blue'
+gsettings set org.mate.Marco.general theme 'Dagoland'
 #### Botões do lado esquerdo: ####
 gsettings set org.mate.Marco.general button-layout 'close,minimize,maximize:menu'
