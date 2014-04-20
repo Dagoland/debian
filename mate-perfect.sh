@@ -98,7 +98,7 @@ gsettings set org.mate.interface monospace-font-name 'Lucida Console 10'
 # Tema de ícones: "gnome" para "Dagoland"
 # Cursor do mouse "Adwaita" para 
 ##### Tema GTK: Dagoland-blue ####
-gsettings set org.mate.interface gtk-theme 'Dagoland-blue'
+gsettings set org.mate.interface gtk-theme 'Dagoland'
 #### Tema de ícones: Dagoland ####
 gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
