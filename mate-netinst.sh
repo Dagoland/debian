@@ -43,7 +43,7 @@ apt-get update
 
 apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring -y --force-yes
 
-apt-get update
+apt-get update; apt-get dist-upgrade -y --force-yes
 
 #### Instalação dos diretórios do usuário: Documentos, Downloads, Música, Imagens, Vídeos, etc.
 
