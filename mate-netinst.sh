@@ -37,14 +37,12 @@ su -c "echo '# mirrors' >> /etc/apt/sources.list.d/mate-desktop.list"
 su -c "echo 'deb http://packages.mate-desktop.org/repo/debian wheezy main' >> /etc/apt/sources.list.d/mate-desktop.list"
 su -c "echo 'deb http://mirror1.mate-desktop.org/debian wheezy main' >> /etc/apt/sources.list.d/mate-desktop.list"
 su -c "echo '#' >> /etc/apt/sources.list.d/mate-desktop.list"
-su -c "echo 'deb http://packages.linuxmint.com/ debian main import backport upstream romeo' >> /etc/apt/sources.list.d/mate-desktop.list"
-echo "Atualização da lista de repositórios"
+su -c "echo '# main repository' >> /etc/apt/sources.list.d/mate-desktop.list"
+su -c "echo 'deb http://repo.mate-desktop.org/archive/1.8/debian/ wheezy main' >> /etc/apt/sources.list.d/mate-desktop.list"
 
 apt-get update
 
 apt-get --yes --quiet --allow-unauthenticated install mate-archive-keyring -y --force-yes
-
-apt-get install linuxmint-keyring -y --force-yes
 
 apt-get update; apt-get dist-upgrade -y --force-yes
 
