@@ -56,7 +56,7 @@ apt-get install xorg -y --force-yes
 
 #### Instalação de MATE
 
-apt-get install mate-desktop-environment-extra
+apt-get install mate-desktop-environment-extra -y --force-yes
 
 #### Instalação de pacotes extras para MATE
 
