@@ -30,6 +30,8 @@ su -c "echo 'deb http://http.debian.net/debian/ wheezy-backports main contrib no
 
 #### Repositório MATE para Debian Wheezy ####
 
+sed -i '1,10d' /etc/apt/sources.list.d/mate-desktop.list | more 2> /dev/null
+
 su -c "echo '# main repository' >> /etc/apt/sources.list.d/mate-desktop.list"
 su -c "echo 'deb http://repo.mate-desktop.org/debian wheezy main' >> /etc/apt/sources.list.d/mate-desktop.list"
 su -c "echo '#' >> /etc/apt/sources.list.d/mate-desktop.list"
