@@ -19,7 +19,7 @@ apt-get update
 
 ##### Atualizamos a lista de repositórios
 
-apt-get -o Acquire::Check-Valid-Until=false update
+apt-get -o Acquire::Check-Valid-Until=false update -y --force-yes
 
 ##### Instalamos compiz e seus pacotes auxiliares 
 
