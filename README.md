@@ -1,4 +1,4 @@
-debian
+debian7
 ======
 
 Repositório para uso em sistemas Debian.
