@@ -16,5 +16,5 @@ mate-perfect.sh:
 Script que instala tema Dagoland no MATE, é compatível com qualquer distribuição que tenha MATE instalado.
 Para usar este script, é necessário os pacotes unzip e wget.
 
-pointlinux.gpg
+pointlinux.gpg:
 Chave do repositório pointlinux: http://cdn.pointlinux.org/pointlinux/ 
