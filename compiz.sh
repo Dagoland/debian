@@ -90,6 +90,14 @@ apt-get update
 
 echo "Instalação do Compiz concluída"
 
+##### Tema T-ish+Metal para emerald (http://goo.gl/9LTISp)
+
+cd /usr/share/emerald/themes
+wget -c -O Mac.tar.bz2 http://gnome-look.org/CONTENT/content-files/137977-T-ish%20Metal%201.0.tar.bz2
+tar -jxvf Mac.tar.bz2
+mv T-ish\ Metal\ 1.0 T-ish_Metal_1.0
+rm Mac.tar.bz2; cd -
+
 ##### Configurações básicas #####
 
 wget -c -O efeito_onda_única_e_correção_do_ccsm.tar.gz https://www.dropbox.com/s/1wfyllcjpo022hb/efeito_onda_%C3%BAnica_e_corre%C3%A7%C3%A3o_do_ccsm.tar.gz
