@@ -21,10 +21,6 @@ apt-get update
 
 apt-get -o Acquire::Check-Valid-Until=false update -y --force-yes
 
-##### Opcionalmente mantemos a versão atual do pacote libc6
-
-echo “libc6 hold” | dpkg --set-selections
-
 ##### Instalamos compiz e seus pacotes auxiliares 
 
 apt-get -t unstable install compiz compiz-gtk compizconfig-backend-gconf compizconfig-settings-manager compiz-plugins compiz-fusion-plugins-main compiz-fusion-plugins-extra compiz-fusion-plugins-unsupported fusion-icon -y --force-yes
@@ -87,10 +83,6 @@ fi
 #### Removemos repositório Debian Sid Snapshot 
 
 rm -fv /etc/apt/sources.list.d/debian-sid-snapshot.list
-
-##### Tiramos o pacote libc6 da lista negra:
-
-echo “libc6 install” | dpkg --set-selections
 
 ##### Atualizamos a lista de repositórios
 
