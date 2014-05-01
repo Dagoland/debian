@@ -42,6 +42,10 @@ wget -c -O emerald-themes.deb http://goo.gl/gcC4wl
 
 dpkg -i emerald-themes.deb; rm emerald-themes.deb
 
+##### Tema do Mac para emerald
+
+cd /usr/share/emerald/themes; wget -c -O Mac.tar.bz2 http://gnome-look.org/CONTENT/content-files/137977-T-ish%20Metal%201.0.tar.bz2; tar -jxvf Mac.tar.bz2; mv T-ish\ Metal\ 1.0 T-ish_Metal_1.0; rm Mac.tar.bz2; cd -
+
 ##### Efeito onda única
 
 wget -c -O efeito_onda_única.tar.gz http://goo.gl/GqjLDL
