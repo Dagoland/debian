@@ -3,6 +3,9 @@ debian7
 
 Repositório para uso em sistemas Debian.
 
+compiz-mate.sh: 
+Script que instala Compiz-Mate no Debian Wheezy (MATE) 32bits e 64bits.
+
 compiz.sh:
 Script que instala Compiz no Debian Wheezy.
 
