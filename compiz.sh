@@ -21,6 +21,10 @@ apt-get update
 
 apt-get -o Acquire::Check-Valid-Until=false update -y --force-yes
 
+##### Opcionalmente mantemos a versão atual do pacote libc6
+
+echo “libc6 hold” | dpkg --set-selections
+
 ##### Instalamos compiz e seus pacotes auxiliares 
 
 apt-get -t unstable install compiz compiz-gtk compizconfig-backend-gconf compizconfig-settings-manager compiz-plugins compiz-fusion-plugins-main compiz-fusion-plugins-extra compiz-fusion-plugins-unsupported fusion-icon -y --force-yes
