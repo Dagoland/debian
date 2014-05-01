@@ -88,6 +88,10 @@ fi
 
 rm -fv /etc/apt/sources.list.d/debian-sid-snapshot.list
 
+##### Tiramos o pacote libc6 da lista negra:
+
+echo “libc6 install” | dpkg --set-selections
+
 ##### Atualizamos a lista de repositórios
 
 apt-get update
