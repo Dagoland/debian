@@ -17,7 +17,7 @@ su -c "echo 'deb http://snapshot.debian.org/archive/debian/20130815T215015Z/ sid
 
 cp /etc/apt/preferences /etc/apt/preferences.backup 2> /dev/null
 su -c "echo 'Package: libc6' > /etc/apt/preferences"
-su -c "Pin: version 2.13*' >> /etc/apt/preferences"
+su -c "echo 'Pin: version 2.13*' >> /etc/apt/preferences"
 
 ##### Atualizamos a lista de pacotes
 
