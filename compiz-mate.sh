@@ -24,9 +24,9 @@ wget -c https://www.dropbox.com/s/ydw2m53c5ex5zp7/pointlinux.gpg
 
 apt-key add pointlinux.gpg
 
-##### Opcionalmente podemos guardar o arquivo pointlinux.gpg em /usr/share/keyrings.
+##### Opcionalmente podemos guardar o arquivo pointlinux.gpg em /usr/share/keyrings, ou removemos:
 
-mv pointlinux.gpg /usr/share/keyrings
+rm pointlinux.gpg
 
 ##### Agora atualizamos a lista de pacotes
 
