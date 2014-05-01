@@ -13,12 +13,6 @@ apt-get dist-upgrade -y --force-yes
 su -c "echo '# Debian Sid Snapshot' > /etc/apt/sources.list.d/debian-sid-snapshot.list"
 su -c "echo 'deb http://snapshot.debian.org/archive/debian/20130815T215015Z/ sid main contrib non-free' >> /etc/apt/sources.list.d/debian-sid-snapshot.list"
 
-##### Impedimento da atualização do pacote libc6 no Debian Wheezy:
-
-cp /etc/apt/preferences /etc/apt/preferences.backup 2> /dev/null
-su -c "echo 'Package: libc6' > /etc/apt/preferences"
-su -c "Pin: version 2.13*' > /etc/apt/preferences"
-
 ##### Atualizamos a lista de pacotes
 
 apt-get update
@@ -89,10 +83,6 @@ fi
 #### Removemos repositório Debian Sid Snapshot 
 
 rm -fv /etc/apt/sources.list.d/debian-sid-snapshot.list
-
-##### Dexixamos o arquivo /etc/apt/preferences como estava antes:
-
-mv /etc/apt/preferences.backup /etc/apt/preferences 2> /dev/null
 
 ##### Atualizamos a lista de repositórios
 
