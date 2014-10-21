@@ -60,8 +60,8 @@ mv libanimation.so /usr/lib/compiz/; mv animation.xml /usr/share/compiz/animatio
 
 ##### Remoção do repositório pointlinux, basta executar o seguinte comando:
 
-sudo rm -fv /etc/apt/sources.list.d/pointlinux.list
+rm -fv /etc/apt/sources.list.d/pointlinux.list
 
 #####Atualizamos a lista de repositórios:
 
-sudo apt-get update
+apt-get update
