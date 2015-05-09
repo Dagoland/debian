@@ -17,8 +17,9 @@
 # Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 ####################
 
-vs=4.2.5
+vs=4.3.7
 rev=.2
+icons=4.3
 
 ####################
 
@@ -53,6 +54,11 @@ sudo tar -zxpvf LibreOffice_$vs\_Linux_$ARCH\_deb_helppack_pt-BR.tar.gz
 # Pacote de  Ajuda  em Porugues BR
 sudo tar -zxpvf LibreOffice_$vs\_Linux_$ARCH\_deb_langpack_pt-BR.tar.gz
 
+# Remoção de versão antiga do Libreoffice
+
+sudo apt-get --purge remove libreoffice* -y --force-yes; cd -
+sudo apt-get install -f -y --force-yes
+sudo apt-get --purge remove libreoffice* -y --force-yes
 
 # instalando os pacotes
 # Libre Office
@@ -62,7 +68,6 @@ sudo dpkg -i *.deb
 cd  desktop-integration/
 sudo dpkg -i --force-all *.deb
 
-
 cd ../../../LibreOffice_$vs$rev\_Linux_$ARCH\_deb_langpack_pt-BR/DEBS/
 # Pacote de  Linguagem Portugues  BR
 sudo dpkg -i --force-all *.deb
@@ -71,5 +76,13 @@ sudo dpkg -i --force-all *.deb
 cd ../../LibreOffice_$vs$rev\_Linux_$ARCH\_deb_helppack_pt-BR/DEBS/
 
 sudo dpkg -i --force-all *.deb
+
+# Removendo arquivos baixados
+
+sudo rm /home/office_$vs -rf
+
+# Ícones para Libreoffice
+
+wget -O icons_flat.zip http://goo.gl/s13AGF; unzip icons_flat.zip; mv images_flat.zip /opt/libreoffice$icons/share/config/images_tango.zip; mv intro.png flat_logo.svg /opt/libreoffice$icons/program/; rm icons_flat.zip
 
 echo " Libre office instalado com  sucesso !"
