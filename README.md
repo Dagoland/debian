@@ -9,7 +9,7 @@ Script que instala Compiz-Mate no Debian Wheezy (MATE) 32bits e 64bits.
 compiz.sh:
 Script que instala Compiz no Debian Wheezy.
 
-exvimon.sh
+exvimon.sh:
 Script auxiliar para deixar a cor do painel do mate de cor preta, para ficar semelhante a ao painel do gnome.
 
 firefox-stable.sh: 
