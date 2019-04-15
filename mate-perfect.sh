@@ -30,6 +30,12 @@ unzip Dagoland-blue.zip
 mv Dagoland-blue /home/`whoami`/.themes
 rm Dagoland-blue.zip
 #
+##### Download Tema GTK: Equus para MATE #####
+wget -O Equus.zip https://www.dropbox.com/s/pfq6jdl583qvzo4/Equus.zip
+unzip Equus.zip
+mv Equus /home/`whoami`/.themes
+rm Equus.zip
+#
 ##### Download Tema de ícones: Dagoland #####
 wget -O Dagoland.zip https://www.dropbox.com/s/98z6ln93x3jnt7m/Dagoland.zip
 unzip Dagoland.zip
@@ -98,12 +104,12 @@ gsettings set org.mate.interface monospace-font-name 'Lucida Console 10'
 # Tema de ícones: "gnome" para "Dagoland"
 # Cursor do mouse "Adwaita" para 
 ##### Tema GTK: Dagoland-blue ####
-gsettings set org.mate.interface gtk-theme 'Dagoland'
+gsettings set org.mate.interface gtk-theme 'Equus'
 #### Tema de ícones: Dagoland ####
 gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
 gsettings set org.mate.peripherals-mouse cursor-theme 'Dagoland-Cursors'
 #### tema marco Dagoland-blue
-gsettings set org.mate.Marco.general theme 'Dagoland'
+gsettings set org.mate.Marco.general theme 'eOS'
 #### Botões do lado esquerdo: ####
 gsettings set org.mate.Marco.general button-layout 'close,minimize,maximize:menu'
