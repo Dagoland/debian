@@ -13,7 +13,7 @@ compiz.sh:
 Script que instala Compiz no Debian Wheezy.
 
 exvimon.sh:
-Script auxiliar para deixar a cor do painel do mate de cor preta, para ficar semelhante a ao painel do gnome.
+Script auxiliar para deixar a cor do painel do mate de cor preta, para ficar semelhante ao painel do gnome.
 
 firefox-stable.sh: 
 Script que instala firefox stable no Debian.
