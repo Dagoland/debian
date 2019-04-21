@@ -113,3 +113,5 @@ gsettings set org.mate.peripherals-mouse cursor-theme 'Dagoland-Cursors'
 gsettings set org.mate.Marco.general theme 'eOS'
 #### Botões do lado esquerdo: ####
 gsettings set org.mate.Marco.general button-layout 'close,minimize,maximize:menu'
+#### Layout da barra de título de janelas decoradas no lado clien do GTK: ####
+gsettings set org.mate.interface gtk-decoration-layout 'close,minimize,maximize:menu'
