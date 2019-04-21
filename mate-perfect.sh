@@ -99,7 +99,7 @@ gsettings set org.mate.Marco.general titlebar-font 'Lucida Gr 10'
 #### 5 Fonte de largura fixa: ####
 gsettings set org.mate.interface monospace-font-name 'Lucida Console 10'
 #
-# Aplicação dos tema Dagoland
+# Aplicação do tema Dagoland
 # Tema GTK: "Adwaita" para "Dagoland-blue"
 # Tema de ícones: "gnome" para "Dagoland"
 # Cursor do mouse "Adwaita" para 
