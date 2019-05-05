@@ -60,6 +60,12 @@ unzip Dagoland.zip
 mv Dagoland /home/`whoami`/.icons 
 rm Dagoland.zip
 #
+##### Download Tema de ícones: Dagoland-Mac #####
+wget -O Dagoland-Mac.zip https://www.dropbox.com/s/apd92nyexxt102y/Dagoland-Mac.zip
+unzip Dagoland-Mac.zip
+mv Dagoland-Mac /home/`whoami`/.icons 
+rm Dagoland-Mac.zip
+#
 ##### Download tema para cursor do mouse Dagoland-Cursors #####
 ###############################################################
 wget -O Dagoland-Cursors.zip https://www.dropbox.com/s/2ywo8dfnfjz0fmi/Dagoland-Cursors.zip
