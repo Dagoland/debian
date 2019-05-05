@@ -36,6 +36,12 @@ unzip Equus.zip
 mv Equus /home/`whoami`/.themes
 rm Equus.zip
 #
+##### Download Tema GTK: Equus-2 para MATE #####
+wget -O Equus-2.zip https://www.dropbox.com/s/9k62akx9ym33xrx/Equus-2.zip
+unzip Equus-2.zip
+mv Equus-2 /home/`whoami`/.themes
+rm Equus-2.zip
+#
 ##### Download Tema GTK: eOS para MATE #####
 wget -O eOS.zip https://www.dropbox.com/s/h6k4a2iknodguor/eOS.zip
 unzip eOS.zip
