@@ -36,6 +36,18 @@ unzip Equus.zip
 mv Equus /home/`whoami`/.themes
 rm Equus.zip
 #
+##### Download Tema GTK: eOS para MATE #####
+wget -O eOS.zip https://www.dropbox.com/s/h6k4a2iknodguor/eOS.zip
+unzip eOS.zip
+mv eOS /home/`whoami`/.themes
+rm eOS.zip
+#
+##### Download Tema GTK: eOS para MATE #####
+wget -O eOSy.zip https://www.dropbox.com/s/yugs37aahzke6xh/eOSy.zip
+unzip eOSy.zip
+mv eOSy /home/`whoami`/.themes
+rm eOSy.zip
+#
 ##### Download Tema de ícones: Dagoland #####
 wget -O Dagoland.zip https://www.dropbox.com/s/98z6ln93x3jnt7m/Dagoland.zip
 unzip Dagoland.zip
