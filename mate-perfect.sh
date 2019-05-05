@@ -8,7 +8,7 @@
 #### Verificando se o usuário é root ####
 if [ `whoami` = "root" ] ; then
  echo ""
- echo "Erro: Este script deve ser executado apenas como usuário normal."
+ echo "Erro: Este script deve ser executado apenas como usuário comum e não como super usuário ou root."
  echo ""
  exit 1s
 fi
