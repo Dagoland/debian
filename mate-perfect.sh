@@ -106,20 +106,20 @@ rm latin.zip
 #
 # Preferências de aparência
 #
-# 1 Fonte de aplicativos:           Lucida Grande Regular 10      
-# 2 Fonte de documentos:            Lucida Grande Regular 10    
-# 3 Fonte da área de trabalho:      Lucida Grande Regular 10
-# 4 Fonte do título de janelas:     Lucida Grande Regular 10    
+# 1 Fonte de aplicativos:           Lucida MAC Normal 10      
+# 2 Fonte de documentos:            Lucida MAC Normal 10    
+# 3 Fonte da área de trabalho:      Lucida MAC Normal 10
+# 4 Fonte do título de janelas:     Lucida MAC Normal 10    
 # 5 Fonte de largura fixa:     Lucida Console 10    
 #
 #### 1 Fonte de aplicativos: ####
-gsettings set org.mate.interface font-name 'Lucida Grande Regular 10'
+gsettings set org.mate.interface font-name 'Lucida MAC Normal 10'
 #### 2 Fonte de documentos: ####
-gsettings set org.mate.interface document-font-name 'Grande Regular 10'
+gsettings set org.mate.interface document-font-name 'Lucida MAC Normal 10'
 #### 3 Fonte da área de trabalho: ####
-gsettings set org.mate.caja.desktop font 'Lucida Grande Regular 10'
+gsettings set org.mate.caja.desktop font 'Lucida MAC Normal 10'
 #### 4 Fonte do título de janelas: ####
-gsettings set org.mate.Marco.general titlebar-font 'Lucida Grande Regular 10'
+gsettings set org.mate.Marco.general titlebar-font 'Lucida MAC Normal 10'
 #### 5 Fonte de largura fixa: ####
 gsettings set org.mate.interface monospace-font-name 'Lucida Console 10'
 #
