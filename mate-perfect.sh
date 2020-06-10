@@ -138,7 +138,7 @@ gsettings set org.mate.interface gtk-theme 'Equus-2'
 #### Tema de ícones: Dagoland ####
 gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
-gsettings set org.mate.peripherals-mouse cursor-theme 'Capitaine Cursors'
+gsettings set org.mate.peripherals-mouse cursor-theme 'capitaine-cursors'
 #### tema marco Dagoland-blue
 gsettings set org.mate.Marco.general theme 'Equus-2'
 #### Botões do lado esquerdo: ####
