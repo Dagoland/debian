@@ -73,6 +73,12 @@ unzip Dagoland-Cursors.zip
 mv Dagoland-Cursors /home/`whoami`/.icons
 rm Dagoland-Cursors.zip
 #
+###############################################################
+wget -O Capitaine-Cursors.zip https://www.dropbox.com/s/w23vrjug4q8nxuv/Capitaine-Cursors.zip
+unzip Capitaine-Cursors.zip
+mv Capitaine-Cursors.zip /home/`whoami`/.icons
+rm Capitaine-Cursors.zip
+#
 ##### Download Fonte mac.zip #####
 ##################################
 wget -O mac.zip https://www.dropbox.com/s/vemmtiokd6kkpg1/mac.zip
@@ -126,15 +132,15 @@ gsettings set org.mate.interface monospace-font-name 'Lucida Console 10'
 # Aplicação do tema Dagoland
 # Tema GTK: "Adwaita" para "Dagoland-blue"
 # Tema de ícones: "gnome" para "Dagoland"
-# Cursor do mouse "Adwaita" para 
+# Cursor do mouse "Adwaita" para "Capitaine Cursors"
 ##### Tema GTK: Dagoland-blue ####
-gsettings set org.mate.interface gtk-theme 'Equus'
+gsettings set org.mate.interface gtk-theme 'Equus-2'
 #### Tema de ícones: Dagoland ####
 gsettings set org.mate.interface icon-theme 'Dagoland'
 #### Cursor do mouse: ####
-gsettings set org.mate.peripherals-mouse cursor-theme 'Dagoland-Cursors'
+gsettings set org.mate.peripherals-mouse cursor-theme 'Capitaine Cursors'
 #### tema marco Dagoland-blue
-gsettings set org.mate.Marco.general theme 'eOS'
+gsettings set org.mate.Marco.general theme 'Equus-2'
 #### Botões do lado esquerdo: ####
 gsettings set org.mate.Marco.general button-layout 'close,minimize,maximize:menu'
 #### Layout da barra de título de janelas decoradas no lado clien do GTK: ####
